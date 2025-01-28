@@ -323,7 +323,7 @@ ol {
   text-underline-offset: 3px;
 }
 
-.content__card-link:active{
+.content__card-link:active {
   background-color: #545050;
   text-decoration: none;
 }
