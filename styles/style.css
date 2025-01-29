@@ -68,7 +68,6 @@ ol {
   display: grid;
   grid-template-columns: 711px 399px;
   gap: 30px;
-  height: 515px;
 }
 
 .result {
@@ -109,6 +108,7 @@ ol {
 
 .content__video-card-thumbnail {
   width: 194px;
+  height: 103px;
   object-fit: cover;
   object-position: center;
 }
