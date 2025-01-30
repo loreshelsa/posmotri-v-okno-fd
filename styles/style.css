@@ -111,6 +111,7 @@ ol {
   height: 103px;
   object-fit: cover;
   object-position: center;
+  flex-shrink: 0;
 }
 
 .search-form {
@@ -311,6 +312,9 @@ ol {
   font-family: Fira Sans Condensed, Arial, sans-serif;
   font-weight: 400;
   font-size: 18px;
+  text-overflow: ellipsis;
+  overflow-wrap: break-word;
+  hyphens: auto;
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
   -moz-line-clamp: 3;
